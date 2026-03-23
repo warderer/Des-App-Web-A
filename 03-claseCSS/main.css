@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,800;1,6..12,800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado {
+    background-color: #3d8b9c;
+    text-align:center;
+    padding: 5% 20%;
+}
+
+#encabezado p {
+    color: white;
+}
+
+h1 {
+    background-color: #fff;
+    color: #3d8b9c;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
