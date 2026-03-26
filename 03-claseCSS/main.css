@@ -26,3 +26,12 @@ h1 {
     "wdth" 100,
     "YTLC" 500;
 }
+
+#technical-skills-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#ts-lado-izquierdo, #ts-lado-derecho {
+    width: 40%;
+}
