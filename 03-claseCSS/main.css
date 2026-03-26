@@ -35,3 +35,20 @@ h1 {
 #ts-lado-izquierdo, #ts-lado-derecho {
     width: 40%;
 }
+
+#portafolio {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#portafolio img {
+  width: 350px;
+}
+
+#video {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
