@@ -1,3 +1,4 @@
+// Paso #1 Obtener el arreglo de Excusas
 const columnaA = [
   "En cuanto se me cayó el internet",
   "En cuanto terminé de entender el tema",
@@ -36,3 +37,14 @@ const columnaC = [
   "que quedó en versión preliminar",
   "que pide un formato distinto"
 ];
+
+// Paso #2 Determinar un valor (indice) para cada columna de las excusas
+const posicionA = Math.floor(Math.random()*columnaA.length);
+const posicionB = Math.floor(Math.random()*columnaB.length);
+const posicionC = Math.floor(Math.random()*columnaC.length);
+
+// Paso #3 Armar mi excusa: Concatenando los textos
+const laExcusa = columnaA[posicionA] + " " + columnaB[posicionB] + " " + columnaC[posicionC]
+
+// Paso #4 Insertar la excusa en el documento HTML
+document.getElementById("excusa").textContent = laExcusa;
